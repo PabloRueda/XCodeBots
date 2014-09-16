@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "cd $(SRCROOT)&#10;pod install"
+               scriptText = "cd ${SRCROOT}&#10;pod install"
                shellToInvoke = "/usr/bin/env bash">
                <EnvironmentBuildable>
                   <BuildableReference
@@ -33,7 +33,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "67BF9FEA98FC4818B2106775"
+               BlueprintIdentifier = "5773DA56737440FB879D2F33"
                BuildableName = "libPods.a"
                BlueprintName = "Pods"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
