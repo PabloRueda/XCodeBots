@@ -41,3 +41,7 @@ http://bjmiller.me/post/72937258798/continuous-integration-with-xcode-5-xctest-o
 https://github.com/CocoaPods/blog.cocoapods.org/blob/master/_drafts/CocoaPods-Bots.markdown
 
 https://github.com/CocoaPods/blog.cocoapods.org/issues/21
+
+### Notes
+
+Every first build for a new bot is always a failure. The reason it doesn't work on clean installs is because the Pods.xcconfig file is not present when the workspace/project is initially loaded, so the various search paths and environment variables set there are missing initially.
